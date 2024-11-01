@@ -28,7 +28,7 @@ const ContactForm = ({ handleSubmit }) => {
             </div>
             <Field type="text" name="name" id={idName} className={s.input} />
             <div className={s.labelBox}>
-                <label htmlFor={idNumber}>Username</label>
+                <label htmlFor={idNumber}>Phone number</label>
                 <ErrorMessage name="number" component="span" />
             </div>
             <Field type="text" name="number" id={idNumber} className={s.input} />
